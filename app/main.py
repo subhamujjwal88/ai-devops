@@ -15,7 +15,7 @@ APP_VERSION = os.getenv("APP_VERSION", "1.0.0")
 def read_root():
     """Root endpoint providing a welcoming message."""
     return {
-        "message": "Welcome to the DevOps Practice App!",
+        "message": "Welcome to the AI DevOps Practice App!",
         "docs": "/docs",
     }
 

@@ -10,7 +10,7 @@ def test_read_root():
     assert response.status_code == 200
     data = response.json()
     assert "message" in data
-    assert data["message"] == "Welcome to the DevOps Practice App!"
+    assert data["message"] == "Welcome to the AI DevOps Practice App!"
 
 
 def test_health_check():
